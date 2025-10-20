@@ -152,5 +152,5 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Solution file
+# Solution files (reference implementations)
 solution.py
