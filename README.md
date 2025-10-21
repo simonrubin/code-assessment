@@ -14,8 +14,11 @@ coding-quiz/
 │   ├── impl.py        # Your implementation
 │   ├── solution.py    # Complete solution (reference)
 │   └── test/          # Test files for all 4 levels
-└── q2/                # Question 2: [To Be Implemented]
-    └── README.md      # Placeholder for future question
+└── q2/                # Question 2: Shared Cloud File Storage
+    ├── README.md      # Question 2 requirements
+    ├── impl.py        # Your implementation
+    ├── solution.py    # Complete solution (reference)
+    └── test/          # Test files for all 4 levels
 ```
 
 ## Questions
@@ -33,16 +36,22 @@ Implement an in-memory database with progressive features:
 
 [View Question 1 Details →](q1/README.md)
 
-### Question 2: [To Be Implemented]
-**Status**: 🚧 Coming Soon  
+### Question 2: Shared Cloud File Storage
+**Status**: ✅ Complete  
 **Levels**: 4  
-**Focus**: TBD
+**Focus**: File management, user systems, capacity limits, backup/restore
 
-[View Question 2 Placeholder →](q2/README.md)
+Implement a shared cloud file storage system with progressive features:
+- **Level 1**: Basic file operations (add, delete, query)
+- **Level 2**: File size querying with sorting
+- **Level 3**: User management with capacity limits
+- **Level 4**: Backup and restore functionality
+
+[View Question 2 Details →](q2/README.md)
 
 ## Getting Started
 
-1. **Choose a question**: Navigate to the question directory (e.g., `q1/`)
+1. **Choose a question**: Navigate to the question directory (e.g., `q1/` or `q2/`)
 2. **Read the requirements**: Check the question's README for detailed specifications
 3. **Implement your solution**: Edit the `impl.py` file in the question directory
 4. **Test your implementation**: Run the tests to verify your solution
@@ -56,7 +65,8 @@ Implement an in-memory database with progressive features:
 
 2. **Navigate to a question**:
    ```bash
-   cd q1  # or q2, q3, etc.
+   cd q1  # In-Memory Database
+   cd q2  # Shared Cloud File Storage
    ```
 
 3. **Run tests**:
@@ -98,6 +108,12 @@ Each question follows this pattern:
 - **Comprehensive tests** for each level
 - **Clear documentation** with examples
 - **Reference solution** for verification
+
+## Available Questions
+
+Currently implemented questions:
+- **q1**: In-Memory Database (✅ Complete)
+- **q2**: Shared Cloud File Storage (✅ Complete)
 
 ## Future Questions
 
